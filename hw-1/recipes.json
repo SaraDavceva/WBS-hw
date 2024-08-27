@@ -1,0 +1,25 @@
+[
+  {
+    "name": "Classic Margherita Pizza",
+    "ingredients": [
+      "Pizza dough",
+      "Tomato sauce",
+      "Fresh mozzarella cheese",
+      "Fresh basil leaves",
+      "Olive oil",
+      "Salt and pepper to taste"
+    ]
+  },
+  {
+    "name": "Pepperoni",
+    "ingredients": [
+      "strong white bread flour",
+      "fast-action dried yeast",
+      "olive oil",
+      "fine polenta",
+      "pizza sauce",
+      "grated mozzarella",
+      "pepperoni"
+    ]
+  }
+]
