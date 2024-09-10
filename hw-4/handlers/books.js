@@ -57,7 +57,7 @@ const removeBooks = async (req, res) => {
     const checkBook = await getOne(req.params.id);
 
     if (!checkBook) {
-      return res.status(400).send("Post not found");
+      return res.status(400).send("Book not found");
     }
 
     if (checkBook.user_id.toString() !== req.auth.id.toString()) {
