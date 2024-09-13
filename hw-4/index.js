@@ -1,7 +1,7 @@
 const express = require("express");
 const { expressjwt: jwt } = require("express-jwt");
 
-const connectDB = require("./db/confing");
+const connectDB = require("./db/config");
 connectDB();
 
 const { getSection } = require("./config/index");
