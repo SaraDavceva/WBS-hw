@@ -23,7 +23,6 @@ const addCars = async (req, res) => {
       ...req.body,
       user_id: req.auth.id,
     };
-    // const data = req.body;
     await validateCar(data, CarCreate);
     await create(data);
     return res.status(200).send("New car added");
